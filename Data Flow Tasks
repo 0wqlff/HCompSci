@@ -1,0 +1,27 @@
+Data flow tasks:
+
+Task 4:
+    Allow a user to log in with their library card number (OUT: libraryCardNo)
+    Display a list of available books (OUT: bookList[])
+    Let the user select a book to borrow (IN: booklist[], OUT: selectedBook)
+    Update the book's availability status (IN: selectedBook, OUT: selectedBook_available)
+    Record the loan in the user's account (IN: libraryCardNo; selectedBook )
+
+TASK 5:
+    Allows a teacher to log in (OUT: tuser,tpassword)
+    Displays a list of classes the teacher is responsible for (IN: tuser, OUT: classlist[])
+    Allows the teacher to select a class (IN: classlist[], OUT: selectedclass)
+    Shows the list of students in the selected class (IN: selectedclass, OUT: studentlist[])
+    Allows the teacher to mark each student as present or absent (IN: studenlist[], OUT: absences[])
+    Updates the attendance records for the day (IN: absences[])
+
+TASK 6:
+    User registration/login (OUT: user, password)
+    Display a list of available quiz topics (IN: user OUT: quizlist[])
+    Allow the user to select a topic (IN: quizlist[], OUT: selectedtopic)
+    Present questions one at a time from the chosen topic (IN: selectedtopic, OUT: questions[])
+    Accept and check the user's answers (OUT: noAnswers, noCorrectAnswers)
+    Calculate and display the final score (IN: noAnswers, noCorrectAnswers, OUT: score)
+    Update the user's profile with the quiz result (IN: score, user)
+
+
