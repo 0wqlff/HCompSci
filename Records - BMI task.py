@@ -22,3 +22,4 @@ BMIdetails[0].bmi = BMIdetails[0].weight / (BMIdetails[0].height**2)
 BMIdetails[0].height = 1.70
 BMIdetails[0].weight = 
 BMIdetails[0].bmi = BMIdetails[0].weight / (BMIdetails[0].height**2)
+htrhz
