@@ -8,5 +8,5 @@ class person():
 BMIdetails = [person() for index in range(40)]
 
 BMIdetails[0].height = 1.75
-BMIdetails[0].weight = 1.75
-BMIdetails[0].bmi = 1.75
+BMIdetails[0].weight = 70.5
+BMIdetails[0].bmi = BMIdetails[0].weight / (BMIdetails[0].height**2)
