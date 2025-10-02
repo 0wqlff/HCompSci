@@ -10,8 +10,8 @@ def go():
     BMIdetails = [person() for i in range(5)]
 
     def get_values():
-        heights=int(input("What is your height? "))
-        weights=int(input("What is your weight? "))
+        heights=float(input("What is your height? "))
+        weights=float(input("What is your weight? "))
         return heights, weights
 
     def calculate():
