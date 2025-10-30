@@ -1,0 +1,33 @@
+tASK 1:
+
+    GET OwnsAnIPhone[] FROM USER
+    SET total = 0
+    LOOP FOR EACH ITEM IN OwnsAnIPhone[]
+        IF CURRENT ITEM IN OwnsAnIphone[] = "Yes"
+            SET total TO total + 1
+        END IF
+    END LOOP
+    DISPLAY total 
+
+TaSK 2:
+
+    GET PetPurchased[] FROM USER
+    SET position TO 0
+    LOOP FOR EACH ITEM IN PetPurchased[]
+        IF CURRENT ITEM IN PetPurchased[] = "Hamster"
+            SET position TO CURRENT index IN PetPurchased[]
+        END IF
+    END LOOP
+    DISPLAY position
+
+TAsk 3:
+
+    GET PetPurchased[] FROM USER
+    SET position TO []
+    LOOP FOR EACH ITEM IN PetPurchased[]
+        IF CURRENT ITEM IN PetPurchased[] = "Hamster"
+            APPEND CURRENT index TO position[]
+        END IF
+    END LOOP
+    DISPLAY position
+
