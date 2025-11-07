@@ -1,16 +1,25 @@
-def intructo():
-    print("Welcome to your temperature converter!!!")
-    print("Enter a temperature in Celsius or Fahrenheit and we will convert it for you!! Simple as that!")
-    print("========================================================================================================")
-    print("========================================================================================================")
+# def intructo():
+#     print("Welcome to your temperature converter!!!")
+#     print("Enter a temperature in Celsius or Fahrenheit and we will convert it for you!! Simple as that!")
+#     print("========================================================================================================")
+#     print("========================================================================================================")
 
-def accio():
-    print("Pretty please may you kindly provide us with the information relating to the name of your chosen unit of temperature,")
-    print("if it is not too much work, of course, THANK YOU!!")
-    unit=input("Unit: ")
-    print("AND NOW, for the value of such temperature to be provided.")
-    value=int(input("Value: "))
-    return unit, value 
+# def accio():
+#     print("Pretty please may you kindly provide us with the information relating to the name of your chosen unit of temperature,")
+#     print("if it is not too much work, of course, THANK YOU!!")
+#     unit=input("Unit: ")
+#     print("AND NOW, for the value of such temperature to be provided.")
+#     value=int(input("Value: "))
+#     return unit, value 
 
-def validito():
-    
+# def validito():
+#-------------Main Program-----------------
+#open file
+import time
+with open("1101. File Handling/1101 Task 1/SampleFile.txt") as readfile:
+    #filecontents = readfile.read()
+    nextLine = readfile.readline()
+    while nextLine != "":
+        print(nextLine.strip())
+        time.sleep(2)
+        nextLine = readfile.readline()
