@@ -4,8 +4,15 @@ class person():
     height : float = 0
     weight : float = 0
     bmi : float = 0.0
+@dataclass
+class persons():
+    height : float = 0
+    weight : float = 0
+    bmi : float = 0.0
 
-BMIdetails = [person() for index in range(40)]
+BMIdetails = [persons() for index in range(40)]
+class test():
+    width: float=0
 
 BMIdetails[0].height = 1.75
 BMIdetails[0].weight = 70.5
