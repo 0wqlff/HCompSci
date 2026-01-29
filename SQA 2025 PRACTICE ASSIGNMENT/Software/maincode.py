@@ -55,6 +55,7 @@ def countOption(orders, target):
     return count
 
 #main program
+
 orders=readfromfile()
 position=findpositionofcustomer(orders)
 WriteDetailsOfWinningCustomer(orders,position)
