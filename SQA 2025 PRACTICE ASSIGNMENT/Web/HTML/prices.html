@@ -3,18 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <title>Paradise Mini Golf</title>
-  <link href="SQA 2025 PRACTICE ASSIGNMENT/Web/CSS/style.css" rel="stylesheet" type="text/css" />
+  <link href="../CSS/style.css" rel="stylesheet" type="text/css" />
 </head>
 <header>
  <img src = "..\Images\banner.png">
 </header>
 </header>
 <nav>
-  <a href="SQA 2025 PRACTICE ASSIGNMENT/Web/HTML/index.html">Home</a>
-  <a href="SQA 2025 PRACTICE ASSIGNMENT/Web/HTML/food.html">Food</a>
-  <a href="SQA 2025 PRACTICE ASSIGNMENT/Web/HTML/course.html">Course</a>
-  <a href="SQA 2025 PRACTICE ASSIGNMENT/Web/HTML/prices.html" class="selected">Prices</a>
-  <a href="SQA 2025 PRACTICE ASSIGNMENT/Web/HTML/contact.html">Contact</a>
+  <a href="index.html">Home</a>
+  <a href="food.html">Food</a>
+  <a href="course.html">Course</a>
+  <a href="prices.html" class="selected">Prices</a>
+  <a href="contact.html">Contact</a>
   <div class="animation start-prices"></div>
 </nav>
 
@@ -23,7 +23,7 @@
   <h1>Our pricing</h1>
   <p>We understand that finding affordable, fun entertainment is difficult. That is why our pricing is the BEST in Scotland. </p>
   <section>
-  <section>
+  <section class="rates" id="everydayrates">
   <h2>Everyday rates</h2>
   <ul>
 	<li>Adult: £7.00</li>
@@ -33,7 +33,7 @@
   </ul>
   </section>
   
-   <section>
+   <section id="grouprates" class="rates">
     <h2>Group rates</h2>
 	  <ul>
 		<li>20-29 People: £6.00 per person</li>
@@ -42,7 +42,7 @@
 	  </ul>
   </section>
   
-   <section>
+   <section class="rates">
     <h2>Party & play packages</h2>
 	  <ul>
 		<li>Up to 10: £185</li>

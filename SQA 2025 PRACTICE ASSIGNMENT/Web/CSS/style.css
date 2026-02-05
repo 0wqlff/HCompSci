@@ -335,3 +335,15 @@ form{
 
 input {border-radius: 8px;font-size: 18px;padding: 5px;}
 #topic{font-family:Calibri;font-size:18px;padding:10px;width:400px}
+
+.rates{
+  width: 31%;
+  height: 300px;
+  background-color: #4ABBD9;
+  padding: 5px;
+  float: left
+}
+
+#grouprates{
+  margin: 0 10px 0 10px;
+}
